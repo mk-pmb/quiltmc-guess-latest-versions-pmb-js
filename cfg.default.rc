@@ -1,0 +1,24 @@
+# -*- coding: utf-8, tab-width: 2 -*-
+
+# Configuration is done via environment variables.
+# This file defines the default values.
+
+# Paths can be absolute, or can be relative to the current working directory.
+
+QLV_CACHE='tmp.cache/'
+
+# Path to a cache directory where downloaded files are stored.
+# If you run this in an automated environment, please ensure proper caching.
+#   * On GitHub Actions, you can use the action `actions/cache` to do this.
+#     * If your main build job tends to fail, please run QLV as a separate job
+#       that your main job depends on. This way, the cache action can
+#       (hopefully) save the updated files to the cache even if your later
+#       build step fails.
+
+
+QLV_MAXAGE='0 day 12 hours 0 minutes 0 seconds'
+# How old your cache files can be before QLV should consider them outdated.
+
+
+
+
